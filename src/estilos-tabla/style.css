@@ -1,0 +1,44 @@
+/* Establece la fuente predeterminada y reinicia los márgenes y rellenos en el cuerpo del documento */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fuente predeterminada */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilos para las tablas */
+table {
+    border-spacing: 0; /* Espacio entre bordes de celdas */
+    border-collapse: collapse; /* Colapso de bordes de celdas */
+    width: 800px; /* Ancho fijo de la tabla */
+    margin: 100px auto; /* Margen superior e inferior de 100px y centrado horizontalmente */
+}
+
+/* Estilos para las celdas de datos y encabezados de tabla */
+td, th {
+    border: solid 1px #ccc; /* Borde sólido de 1px con color gris */
+    padding: 5px; /* Relleno interno de 5px */
+}
+
+/* Estilos para filas pares (alternancia de colores) */
+tr:nth-child(even) {
+    background-color: #eee; /* Fondo gris claro para filas pares */
+}
+
+/* Estilos para celdas de datos a partir de la séptima columna */
+td:nth-child(n + 7),
+th:nth-child(n + 7) {
+    text-align: center; /* Alineación de texto al centro para las celdas de la séptima columna en adelante */
+}
+
+/* Estilos para filas de cuerpo cuando se pasa el cursor por encima (importante) */
+tbody tr:hover {
+    background-color: rgb(160,222,225) !important; /* Cambio de color de fondo al pasar el cursor por encima (usando !important para priorizar) */
+}
+
+/* Estilos para el encabezado de la tabla */
+thead {
+    background-color: #000; /* Color de fondo negro */
+    color: #fff; /* Color del texto blanco */
+    position: sticky; /* Encabezado de tabla pegajoso */
+    top: 0; /* Se mantiene en la parte superior de la tabla cuando se desplaza */
+}
