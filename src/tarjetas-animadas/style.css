@@ -1,0 +1,89 @@
+/* Establece la fuente predeterminada y reinicia los márgenes y rellenos en el cuerpo del documento */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fuente predeterminada */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilos para el contenedor de las tarjetas */
+.cards {
+    display: flex; /* Muestra los elementos como un flex container */
+    width: 100%; /* Ancho del 100% del contenedor padre */
+    padding: 50px; /* Relleno de 50px en todos los lados */
+}
+
+/* Estilos para cada tarjeta */
+.cards .card {
+    background-color: #00c3ff; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    width: 300px; /* Ancho fijo */
+    height: 350px; /* Altura fija */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 30px; /* Relleno interno */
+    box-sizing: border-box; /* El tamaño de la caja incluye el borde y el relleno */
+    position: relative; /* Posición relativa para alinear elementos internos */
+    display: flex; /* Muestra elementos internos como flex container */
+    flex-direction: column; /* Dirección de columna para elementos internos (vertical) */
+
+    /* Transición de propiedades animadas en 0.3 segundos con suavidad */
+    transition: all 0.3s ease;
+
+    /* Sombra del cuadro */
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3), -4px 0 10px rgba(0, 0, 0, 0.2), -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los enlaces dentro de las tarjetas */
+.cards .card a {
+    color: #000000; /* Color de texto */
+    text-decoration: none; /* Sin decoración de texto (subrayado) */
+    font-weight: bold; /* Peso de fuente en negrita */
+}
+
+/* Estilos para los enlaces cuando se pasa el cursor por encima */
+.cards .card a:hover {
+    color: #ffffff; /* Color de texto al pasar el cursor por encima */
+}
+
+/* Estilos para el encabezado de cada tarjeta */
+.cards .card .header {
+    flex: 1; /* Utiliza todo el espacio disponible en la parte superior */
+}
+
+/* Estilos para las tarjetas cuando se pasa el cursor por encima */
+.cards .card:hover {
+    margin-right: 80px; /* Margen derecho aumentado */
+    transform: rotate(3deg) translateY(-15px); /* Rotación y desplazamiento vertical */
+}
+
+/* Estilos para la fecha en el encabezado de la tarjeta */
+.cards .card .header .date {
+    padding: 10px 0; /* Relleno vertical en la fecha */
+}
+
+/* Estilos para el título en el encabezado de la tarjeta */
+.cards .card .header .title {
+    font-size: 28px; /* Tamaño de fuente */
+}
+
+/* Estilos para el pie de cada tarjeta */
+.cards .card .footer .autor a {
+    display: flex; /* Muestra elementos internos como flex container */
+    align-items: center; /* Alinea elementos verticalmente */
+}
+
+/* Estilos para las imágenes de autor en el pie de la tarjeta */
+.cards .card .footer img {
+    width: 30px; /* Ancho de imagen */
+    border-radius: 50px; /* Borde redondeado */
+    margin: 5px; /* Margen exterior */
+}
+
+/* Estilos para tarjetas con clases que contienen 'element' */
+.cards .card[class*='element'] {
+    margin-left: -100px; /* Margen izquierdo negativo */
+}
+
+/* Estilos para tarjetas con clases 'element-1' y 'element-2' cuando se pasa el cursor por encima */
+.element-1:hover, .element-2:hover {
+    margin-left: -130px; /* Margen izquierdo negativo mayor cuando se pasa el cursor por encima */
+}
