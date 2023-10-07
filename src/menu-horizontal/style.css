@@ -1,106 +1,130 @@
+/* Establece la fuente predeterminada y reinicia los márgenes y rellenos en el cuerpo del documento */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Fuente predeterminada */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
 }
 
+/* Define una fuente personalizada con variaciones de fuentes específicas */
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    font-variation-settings:
+    'FILL' 0, /* Establece la variación de relleno */
+    'wght' 400, /* Establece el grosor de la fuente */
+    'GRAD' 0, /* Establece la variación de gradiente */
+    'opsz' 24; /* Establece el tamaño de la fuente */
 }
 
+/* Oculta elementos con la clase 'collapsed' (usada para ocultar elementos) */
+.collapsed {
+    display: none; /* Oculta el elemento */
+}
+
+/* Estilos para la barra de navegación principal */
 nav {
-    background-color: #000;
-    color: #fff;
-    width: 100%;
+    background-color: #000; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    width: 100%; /* Ancho completo */
 }
 
+/* Estilos para la vista móvil de la barra de navegación */
 nav .mobile {
-    display: none;
+    display: none; /* Oculta el elemento */
 }
 
+/* Estilos para el encabezado de la vista móvil */
 nav .mobile .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
+    display: flex; /* Mostrar como flexbox */
+    justify-content: space-between; /* Distribución espaciada entre elementos */
+    align-items: center; /* Centrar verticalmente */
+    padding-left: 10px; /* Relleno a la izquierda */
 }
 
+/* Estilos para el botón 'more' en la vista móvil */
 nav .mobile .header .more button {
-    border: none;
-    background-color: #000;
-    color: #fff;
-    padding: 15px;
-    cursor: pointer;
+    border: none; /* Sin borde */
+    background-color: #000; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    padding: 15px; /* Relleno */
+    cursor: pointer; /* Cambio de cursor al puntero */
 }
 
+/* Estilos para el logotipo en la barra de navegación */
 nav .logo {
-    min-width: 250px;
+    min-width: 250px; /* Ancho mínimo */
 }
 
+/* Estilos para los enlaces en la barra de navegación */
 nav a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    padding: 20px 25px;
+    color: #fff; /* Color de texto */
+    text-decoration: none; /* Sin decoración de texto (subrayado) */
+    display: block; /* Mostrar como bloque */
+    padding: 20px 25px; /* Relleno */
 }
 
+/* Estilos para los enlaces cuando se pasa el cursor por encima */
 nav a:hover {
-    color: #000;
-    background-color: #00c3ff;
+    color: #000; /* Color de texto al pasar el cursor por encima */
+    background-color: #00c3ff; /* Color de fondo al pasar el cursor por encima */
 }
 
+/* Estilos para la barra de navegación en la vista de escritorio */
 nav .desktop {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px; 
+    display: flex; /* Mostrar como flexbox */
+    justify-content: space-between; /* Distribución espaciada entre elementos */
+    align-items: center; /* Centrar verticalmente */
+    padding: 0 20px; /* Relleno horizontal */
 }
 
-nav .desktop .primary, nav .desktop .secondary {
-    display: flex;
+/* Estilos para los elementos primarios y secundarios en la vista de escritorio */
+nav .desktop .primary,
+nav .desktop .secondary {
+    display: flex; /* Mostrar como flexbox */
 }
 
+/* Estilos para los elementos secundarios mini en la vista de escritorio */
 nav .desktop .secondary.mini {
-    display: none;
+    display: none; /* Oculta el elemento */
 }
 
+/* Estilos para la barra de navegación en pantallas más pequeñas */
 @media screen and (max-width: 896px) {
+    /* Cambios en el tamaño del logotipo */
     nav .logo {
-        min-width: 100px;
+        min-width: 100px; /* Ancho mínimo */
     }
 
+    /* Oculta los elementos secundarios completos en la vista móvil */
     nav .secondary.full {
-        display: none;
+        display: none; /* Oculta el elemento */
     }
 
+    /* Muestra los elementos secundarios mini en la vista móvil, utilizando !important para anular estilos anteriores */
     nav .secondary.mini {
-        display: block !important;
+        display: block !important; /* Muestra el elemento, anulando otros estilos si es necesario */
     }
 
+    /* Estilos para el menú desplegable en la vista móvil */
     nav .secondary.mini .submenu {
-        background-color: #000;
-        position: absolute;
-        display: none;
-        width: 250px;
-        right: 0;
+        background-color: #000; /* Color de fondo */
+        position: absolute; /* Posición absoluta */
+        display: none; /* Oculta el elemento */
+        width: 250px; /* Ancho */
+        right: 0; /* Alineación a la derecha */
     }
 
+    /* Muestra el menú desplegable al pasar el cursor por encima */
     nav .secondary.mini:hover .submenu {
-        display: block;
+        display: block; /* Muestra el elemento al pasar el cursor por encima */
     }
 }
 
+/* Oculta la barra de navegación en pantallas pequeñas y muestra la vista móvil */
 @media screen and (max-width: 540px) {
     nav .desktop {
-        display: none;
+        display: none; /* Oculta el elemento */
     }
 
     nav .mobile {
-        display: block;
+        display: block; /* Muestra el elemento */
     }
-    
 }
