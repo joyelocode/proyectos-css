@@ -1,6 +1,6 @@
 # Proyectos Css Componentes Web
 
-Este repositorio contiene una serie de proyectos de componentes web que he creado siguiendo tutoriales del YouTuber [Nombre del YouTuber](https://www.youtube.com/@vidamrr/about).
+Este repositorio contiene una serie de proyectos de componentes web que he creado siguiendo tutoriales del YouTuber [Marcos Rivas](https://www.youtube.com/@vidamrr/about).
 
 ## Acerca del YouTuber
 
