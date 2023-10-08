@@ -27,6 +27,11 @@ A continuación, se presentan algunos de los proyectos que he completado siguien
 - **Descripción**: Este proyecto se centra en la creación de una tabla HTML con estilos y funcionalidades adicionales. Incluye características como filas pegajosas y cambio de color al pasar el cursor por encima.
 - **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
 
+### 4. [Animación de Notificación Proyecto 4]
+
+- **Descripción**: Este proyecto se enfoca en la creación de una animación de notificación utilizando CSS. La animación incluye un icono de notificación con un contador en movimiento y un efecto de rotación.
+- **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
+
 ## Próximos Proyectos
 
 Tengo la intención de completar un total de 20 proyectos siguiendo los tutoriales del YouTuber. A medida que avance, agregaré más proyectos a este repositorio y actualizaré esta documentación con los detalles correspondientes.

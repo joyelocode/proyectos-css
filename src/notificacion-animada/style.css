@@ -1,0 +1,132 @@
+/* Estilos para el icono de "material-symbols-outlined" */
+.material-symbols-outlined {
+    /* Configura las características de fuente variable */
+    font-variation-settings:
+    'FILL' 0,    /* Establece el relleno en 0 (sin relleno) */
+    'wght' 400,  /* Establece el peso de la fuente en 400 */
+    'GRAD' 0,    /* Establece la gradación en 0 */
+    'opsz' 24;   /* Establece el tamaño de la opacidad en 24 */
+}
+
+/* Establece el tamaño de fuente para el icono de "material-symbols-outlined" */
+.material-symbols-outlined {
+    font-size: 48px; /* Tamaño de fuente de 48 píxeles */
+}
+
+/* Establece la fuente predeterminada y reinicia los márgenes y rellenos en el cuerpo del documento */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fuente predeterminada */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilos para la notificación */
+.notification {
+    width: 48px; /* Ancho de 48 píxeles */
+    margin: 100px auto; /* Margen superior e inferior de 100 píxeles y centrado horizontalmente */
+
+    /* Animación "ring" con duración de 4 segundos, retraso de 0.7 segundos, suavidad y repetición infinita */
+    animation: ring 4s 0.7s ease-in-out infinite;
+    transform-origin: 50% 4px; /* Establece el punto de origen de la transformación */
+}
+
+/* Estilos para el contador dentro de la notificación */
+.notification .count {
+    --size: 30px; /* Variable de tamaño con valor de 30 píxeles */
+    font-size: 12px; /* Tamaño de fuente de 12 píxeles */
+    font-weight: bold; /* Texto en negrita */
+    background-color: #0000ff; /* Color de fondo azul */
+    color: #ffffff; /* Color del texto blanco */
+    border: solid 2px #ffffff; /* Borde sólido blanco de 2 píxeles */
+    display: inline-flex; /* Elemento se muestra como flex container */
+    align-items: center; /* Alinea elementos verticalmente */
+    justify-content: center; /* Alinea elementos horizontalmente */
+    width: var(--size); /* Ancho basado en la variable de tamaño */
+    height: var(--size); /* Altura basada en la variable de tamaño */
+    max-width: var(--size); /* Ancho máximo basado en la variable de tamaño */
+    max-height: var(--size); /* Altura máxima basada en la variable de tamaño */
+    box-sizing: border-box; /* El tamaño de la caja incluye el borde y el relleno */
+    position: relative; /* Posición relativa para permitir ajuste de posición */
+    border-radius: 50%; /* Borde redondeado para un aspecto circular */
+    top: 20px; /* Desplazamiento hacia abajo de 20 píxeles desde la parte superior */
+    left: 20px; /* Desplazamiento hacia la derecha de 20 píxeles desde la izquierda */
+}
+
+@keyframes ring {
+    /* Define una serie de transformaciones en diferentes puntos porcentuales */
+    /* Estas transformaciones producirán un efecto de rotación */
+    0% {
+        transform: rotate(0deg);
+    }
+    1% {
+        transform: rotate(30deg);
+    }
+    3% {
+        transform: rotate(-28deg);
+    }
+    5% {
+        transform: rotate(34deg);
+    }
+    7% {
+        transform: rotate(-32deg);
+    }
+    9% {
+        transform: rotate(30deg);
+    }
+    11% {
+        transform: rotate(-28deg);
+    }
+    13% {
+        transform: rotate(26deg);
+    }
+    15% {
+        transform: rotate(-24deg);
+    }
+    17% {
+        transform: rotate(22deg);
+    }
+    19% {
+        transform: rotate(-20deg);
+    }
+    21% {
+        transform: rotate(18deg);
+    }
+    23% {
+        transform: rotate(-16deg);
+    }
+    25% {
+        transform: rotate(14deg);
+    }
+    27% {
+        transform: rotate(-12deg);
+    }
+    29% {
+        transform: rotate(10deg);
+    }
+    31% {
+        transform: rotate(-8deg);
+    }
+    33% {
+        transform: rotate(6deg);
+    }
+    35% {
+        transform: rotate(-4deg);
+    }
+    37% {
+        transform: rotate(2deg);
+    }
+    39% {
+        transform: rotate(-1deg);
+    }
+    41% {
+        transform: rotate(1deg);
+    }
+    43% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+
+}
+
