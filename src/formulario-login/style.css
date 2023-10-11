@@ -1,146 +1,218 @@
+/* Estilos para el cuerpo (body) de la página */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #555;
+    font-family: Arial, Helvetica, sans-serif; /* Establece la fuente de texto */
+    margin: 0; /* Elimina el margen exterior */
+    padding: 0; /* Elimina el relleno exterior */
+    display: flex; /* Usa un diseño de caja flexible */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    background-color: #555; /* Establece el color de fondo */
 }
 
+/* Estilos para el contenedor del formulario (.form-container) */
 .form-container {
-    background-color: #ffffff;
-    width: 80%;
-    border-radius: 10px;
-    overflow: hidden;
-
-    height: 100%;
-
-    display: flex;
-    align-items: center;
+    background-color: #ffffff; /* Establece el color de fondo */
+    width: 80%; /* Establece el ancho al 80% del contenedor padre */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    overflow: hidden; /* Oculta el desbordamiento de los contenidos fuera del contenedor */
+    height: 100%; /* Establece la altura al 100% del contenedor padre */
+    display: flex; /* Usa un diseño de caja flexible */
+    align-items: center; /* Centra verticalmente los elementos hijos */
 }
 
+/* Estilos para el contenedor del formulario de inicio de sesión (.login-container) */
 .form-container .login-container {
-    width: 500px;
-    margin: 0 auto;
+    width: 500px; /* Establece el ancho del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
 }
 
+/* Estilos para el título del formulario (h2) */
 .form-container .login-container > h2 {
-    text-align: center;
-    font-size: 2.5rem;
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 2.5rem; /* Establece el tamaño de fuente */
 }
 
+/* Estilos para párrafos y texto de descripción en el formulario */
 .form-container .login-container > p,
 .form-container .login-container > span {
-    text-align: center;
-    color: #555;
+    text-align: center; /* Centra el texto horizontalmente */
+    color: #555; /* Establece el color de texto */
 }
 
+/* Estilos para etiquetas de campos de entrada (label) */
 .form-container .login-container label {
-    display: block;
-    font-weight: bold;
-    padding: 5px 0;
+    display: block; /* Muestra las etiquetas en bloques separados */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+    padding: 5px 0; /* Agrega relleno superior e inferior */
 }
 
+/* Estilos para campos de entrada (input) */
 .form-container .login-container input.input {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    border: solid 1px #ccc;
-    border-radius: 5px;
+    display: block; /* Muestra los campos de entrada en bloques separados */
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+    padding: 10px; /* Establece el relleno interior */
+    border: solid 1px #ccc; /* Establece un borde sólido con color */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
 }
 
+/* Estilos para campos de entrada cuando están enfocados */
 .form-container .login-container input.input:focus {
-    outline: solid 2px #0099ff
+    outline: solid 2px #0099ff; /* Establece un borde de enfoque al campo de entrada */
 }
 
+/* Estilos para las opciones dentro del formulario (por ejemplo, Iniciar sesión, Recordar contraseña) */
 .form-container .login-container .options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Usa un diseño de caja flexible */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    align-items: center; /* Centra verticalmente los elementos hijos */
 }
 
+/* Estilos para enlaces en el formulario */
 .form-container a {
-    color: #0099ff;
-    text-decoration: none;
+    color: #0099ff; /* Establece el color del enlace */
+    text-decoration: none; /* Elimina la decoración de enlace (subrayado) */
 }
 
+/* Estilos para enlaces cuando se desplazan sobre ellos */
 .form-container a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Agrega un subrayado al pasar el cursor */
 }
 
+/* Estilos para el contenedor de proveedores de inicio de sesión (por ejemplo, Iniciar con Google, Iniciar con Facebook) */
 .form-container .login-container .providers {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-    margin-top: 30px;
+    display: flex; /* Usa un diseño de caja flexible */
+    flex-direction: column; /* Establece la dirección de apilamiento de columnas */
+    gap: 10px; /* Agrega espacio entre elementos */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 30px; /* Agrega margen superior */
 }
 
+/* Estilos para los botones (.btn) en el formulario */
 .btn {
-    border: none;
-    padding: 15px 0;
-    width: 100%;
-    font-weight: bolder;
-    display: block;
-    border-radius: 5px;
-    text-transform: uppercase;
-    cursor: pointer;
+    border: none; /* Elimina el borde del botón */
+    padding: 15px 0; /* Establece el relleno superior e inferior */
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    font-weight: bolder; /* Establece el peso de la fuente en negrita */
+    display: block; /* Muestra el botón en bloque separado */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    cursor: pointer; /* Establece el cursor como un puntero al pasar el mouse */
 }
 
+/* Estilos para el botón de inicio de sesión (.btn-login) */
 .btn.btn-login {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #000000; /* Establece el color de fondo */
+    color: #ffffff; /* Establece el color de texto */
 }
 
+/* Estilos para el botón de inicio de sesión al pasar el cursor sobre él */
 .btn.btn-login:hover {
-    background-color: #333;
+    background-color: #333; /* Cambia el color de fondo al pasar el cursor */
 }
 
+/* Estilos para el botón de inicio de sesión con Google (.btn-google) */
 .btn.btn-google {
-    background-color: #ffffff;
-    color: #000000;
-    border: solid 1px #ccc;
+    background-color: #ffffff; /* Establece el color de fondo */
+    color: #000000; /* Establece el color de texto */
+    border: solid 1px #ccc; /* Establece un borde sólido con color */
 }
 
+/* Estilos para el botón de inicio de sesión con Google al pasar el cursor sobre él */
 .btn.btn-google:hover {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240); /* Cambia el color de fondo al pasar el cursor */
 }
 
+/* Estilos para el botón de inicio de sesión con Facebook (.btn-facebook) */
 .btn.btn-facebook {
-    background-color: rgb(10, 82, 216);
-    color: #ffffff;
+    background-color: rgb(10, 82, 216); /* Establece el color de fondo */
+    color: #ffffff; /* Establece el color de texto */
 }
 
+/* Estilos para el botón de inicio de sesión con Facebook al pasar el cursor sobre él */
 .btn.btn-facebook:hover {
-    background-color: rgb(8, 69 ,182);
+    background-color: rgb(8, 69 ,182); /* Cambia el color de fondo al pasar el cursor */
 }
 
+/* Estilos para el botón de inicio de sesión con Twitter (.btn-twitter) */
 .btn.btn-twitter {
-    background-color: rgb(10, 168, 216);
-    color: #ffffff;
+    background-color: rgb(10, 168, 216); /* Establece el color de fondo */
+    color: #ffffff; /* Establece el color de texto */
 }
 
+/* Estilos para el botón de inicio de sesión con Twitter al pasar el cursor sobre él */
 .btn.btn-twitter:hover {
-    background-color: rgb(8, 137, 177);
+    background-color: rgb(8, 137, 177); /* Cambia el color de fondo al pasar el cursor */
 }
 
+/* Estilos para el contenedor de la pantalla de bienvenida (.welcome-screen-container) */
 .form-container .welcome-screen-container {
-    background-color: #0099ff;
-    height: 100%;
-    width: 50%;
+    background-color: #0099ff; /* Establece el color de fondo */
+    height: 100%; /* Establece la altura al 100% del contenedor */
+    width: 50%; /* Establece el ancho al 50% del contenedor */
 }
 
+/* Estilos para la imagen dentro del contenedor de la pantalla de bienvenida */
 .welcome-screen-container img {
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: 100%; /* Establece la altura al 100% del contenedor */
 }
 
-@media screen and(max-width: 1300px) {
+/* Media Query para pantallas de hasta 1300px de ancho */
+@media (max-width: 1300px) {
     .form-container {
-        width: 95%;
+        width: 95%; /* Reduzca el ancho del contenedor */
     }
-    
+
+    .form-container .login-container {
+        width: 400px; /* Reduzca el ancho del formulario */
+        margin: 0 auto; /* Centra el formulario horizontalmente */
+    }
+
+    .form-container .welcome-screen-container {
+        width: 40%; /* Reduzca el ancho de la pantalla de bienvenida */
+    }
 }
+
+/* Media Query para pantallas de hasta 900px de ancho */
+@media (max-width: 900px) {
+    .form-container .welcome-screen-container {
+        width: 0%; /* Oculta la pantalla de bienvenida */
+    }
+}
+
+/* Media Query para pantallas de hasta 500px de ancho */
+@media (max-width: 500px) {
+    .form-container {
+        width: 95%; /* Reduzca el ancho del contenedor */
+    }
+
+    .form-container .login-container {
+        width: 300px; /* Reduzca el ancho del formulario */
+        margin: 0 auto; /* Centra el formulario horizontalmente */
+    }
+
+    .form-container .welcome-screen-container {
+        width: 0%; /* Oculta la pantalla de bienvenida */
+    }
+}
+
+/* Media Query para pantallas de hasta 350px de ancho */
+@media (max-width: 350px) {
+    .form-container {
+        width: 95%; /* Reduzca el ancho del contenedor */
+    }
+
+    .form-container .login-container {
+        width: 250px; /* Reduzca el ancho del formulario */
+        margin: 0 auto; /* Centra el formulario horizontalmente */
+    }
+
+    .form-container .welcome-screen-container {
+        width: 0%; /* Oculta la pantalla de bienvenida */
+    }
+}
+
+
+

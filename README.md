@@ -32,6 +32,12 @@ A continuación, se presentan algunos de los proyectos que he completado siguien
 - **Descripción**: Este proyecto se enfoca en la creación de una animación de notificación utilizando CSS. La animación incluye un icono de notificación con un contador en movimiento y un efecto de rotación.
 - **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
 
+### 5. [Formulario de Inicio de Sesión Proyecto 5]
+
+- **Descripción**: Este proyecto se centra en la creación de un formulario de inicio de sesión con HTML, CSS. El formulario proporcionará a los usuarios una interfaz para ingresar sus credenciales y acceder a un sistema o sitio web. Los estilos y la funcionalidad del formulario se diseñarán para brindar una experiencia de usuario eficiente y atractiva.
+
+- **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
+
 ## Próximos Proyectos
 
 Tengo la intención de completar un total de 20 proyectos siguiendo los tutoriales del YouTuber. A medida que avance, agregaré más proyectos a este repositorio y actualizaré esta documentación con los detalles correspondientes.
