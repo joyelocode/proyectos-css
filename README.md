@@ -75,6 +75,14 @@ A continuación, se presentan algunos de los proyectos que he completado siguien
 
 - **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
 
+### 10. Tarjetas 3D Interactivas
+
+![Tarjetas 3D Proyecto 10](Agrega aquí la URL de una imagen representativa del proyecto)
+
+- **Descripción**: Este proyecto se centra en la creación de tarjetas 3D interactivas utilizando HTML y CSS. Las tarjetas tienen un efecto de volteo al pasar el cursor sobre ellas, revelando contenido en el lado posterior. Estas tarjetas son ideales para mostrar información de manera llamativa y entretenida.
+
+- **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
+
 ## Próximos Proyectos
 
 Tengo la intención de completar un total de 20 proyectos siguiendo los tutoriales del YouTuber. A medida que avance, agregaré más proyectos a este repositorio y actualizaré esta documentación con los detalles correspondientes.
