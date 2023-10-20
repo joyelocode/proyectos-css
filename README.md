@@ -43,6 +43,38 @@ A continuación, se presentan algunos de los proyectos que he completado siguien
 
 - **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
 
+### 6. Carga Circular con Barra de Progreso
+
+![Carga Circular Proyecto 6](Agrega aquí la URL de una imagen representativa del proyecto)
+
+- **Descripción**: Este proyecto se enfoca en la creación de una animación de carga circular con una barra de progreso utilizando HTML y CSS. La animación muestra una transición suave desde 0% hasta 100%, lo que hace que la carga sea visualmente atractiva y entretenida.
+
+- **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
+
+### 7. Tablas de Precios
+
+![Tablas de Precios Proyecto 7](Agrega aquí la URL de una imagen representativa del proyecto)
+
+- **Descripción**: Este proyecto se enfoca en la creación de tablas de precios con estilos y funcionalidades personalizadas utilizando HTML y CSS. Las tablas muestran información de precios de productos o servicios y están diseñadas para ser visualmente atractivas y funcionales.
+
+- **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
+
+### 8. Estilos de Checkbox y Radio Button
+
+![Estilos de Checkbox y Radio Button Proyecto 8](Agrega aquí la URL de una imagen representativa del proyecto)
+
+- **Descripción**: Este proyecto se enfoca en la creación de estilos personalizados para casillas de verificación (Checkbox) y botones de opción (radio buttons) con HTML y CSS. Los estilos mejoran la apariencia de las casillas de verificación y radio buttons, haciéndolos más atractivos visualmente. Además, se añade una animación para resaltar la selección.
+
+- **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
+
+### 9. Barra de Búsqueda Estilizada
+
+![Barra de Búsqueda Proyecto 9](Agrega aquí la URL de una imagen representativa del proyecto)
+
+- **Descripción**: Este proyecto se enfoca en la creación de una barra de búsqueda estilizada con HTML y CSS. La barra de búsqueda tiene bordes redondeados y efectos visuales para resaltar la interacción del usuario. Además, se incluye botónes de búsqueda con un cambio de color al pasar el cursor sobre ellos.
+
+- **Tutorial del YouTuber**: [Enlace al Tutorial](https://www.youtube.com/watch?v=XZTt1NFDnDw&list=PLvRPaExkZHFlFewlz71TJRheerCt4xc9K)
+
 ## Próximos Proyectos
 
 Tengo la intención de completar un total de 20 proyectos siguiendo los tutoriales del YouTuber. A medida que avance, agregaré más proyectos a este repositorio y actualizaré esta documentación con los detalles correspondientes.
